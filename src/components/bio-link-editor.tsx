@@ -171,7 +171,7 @@ export default function BioLinkEditor() {
     emoji: '👤',
   });
 
-  const [view, setView] = useState<'edit' | 'preview'>('split');
+  const [view, setView] = useState<'edit' | 'preview' | 'split'>('split');
   const [copied, setCopied] = useState(false);
   const [prayerTimes, setPrayerTimes] = useState<PrayerTimes | null>(null);
   const [qibla, setQibla] = useState<QiblaResult | null>(null);
